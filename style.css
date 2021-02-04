@@ -1,0 +1,29 @@
+.navbar {
+    margin: auto;
+}
+
+
+main {
+  margin: auto;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+
+#aboutMe {
+    background-color: aqua;
+    margin: 2% 0% 10% 2%;
+    width: 50%;
+}
+
+
+
+img {
+width: 200px;
+height: 200px;
+margin: 20px;
+}
+
+.left {
+    float: left;
+    padding: 0 10px 0 0;}
