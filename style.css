@@ -1,21 +1,28 @@
 
-main {
-  margin: auto;
-  padding: 5px;
-  background-color: lightgray;
+
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
 }
 
 .navbar-brand {
   font-size: 35px !important;
+  color: white !important;
+  background-color: rgb(121, 141, 177);
 }
 
 #aboutMe {
-    background-color: aqua;
     margin: 2% 0% 10% 2%;
-    width: 50%;
+    width: 70%;
+    padding: 10px;
+    background-color:white;
 }
 
 
+h1 {
+  color: rgb(121, 141, 177);
+}
 
 img {
 width: 200px;
@@ -23,8 +30,15 @@ height: 200px;
 margin: 20px;
 }
 
+ .nav-link {
+font-size: 20px;
+
+}
 .left {
     float: left;
     padding: 0 10px 0 0;
 }
 
+p{
+  font-size: 20px;
+}
