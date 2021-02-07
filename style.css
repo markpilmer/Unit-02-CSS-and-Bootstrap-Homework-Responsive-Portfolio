@@ -24,6 +24,7 @@ body {
 #aboutMe {
     width: 50%;
     background-color:white;
+    padding: 10px;
 }
 
 
@@ -48,13 +49,6 @@ font-size: 20px;
 
 p{
   font-size: 15px;
-}
-
-
-/*Contact*/
-
-form {
-  
 }
 
 input[type=text], select, textarea {
@@ -85,7 +79,16 @@ input[type=submit]:hover {
 
 
 
+/*Portfolio*/
 
+.portFolio
+{
+  margin: 100px 0 20px 30px;
+  width: fit-content;
+  height: fit-content;
+  width: 50%;
+  background-color: rgb(170, 160, 102);
+}
 
   
   
