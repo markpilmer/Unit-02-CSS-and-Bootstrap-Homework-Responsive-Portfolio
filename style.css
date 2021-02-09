@@ -3,7 +3,6 @@ html {background-color: #a4a9b0}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #a4a9b0 !important;
 }
 
 .container {
@@ -13,23 +12,28 @@ body {
   border-radius: 5px;
   padding: 20px;
   float: left;
+  border-radius: 20px;
 }
 
 .navbar-brand {
   font-size: 35px !important;
   color: white !important;
   background-color: rgb(170, 160, 102);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #aboutMe {
     width: 50%;
     background-color:white;
     padding: 10px;
+    border-radius: 20px;
 }
 
 
 h1 {
   color: rgb(121, 141, 177);
+  padding: 5px;
 }
 
 img {
@@ -51,6 +55,13 @@ p{
   font-size: 15px;
 }
 
+/*Contact*/
+.contact {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;;
+}
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -59,35 +70,41 @@ input[type=text], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
+  background-color: rgb(170, 160, 102);
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color:rgb(121, 141, 177);
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(76, 76, 207);
 }
 
 
 
 /*Portfolio*/
-
-
-
-
 .portFolio
 {
-  margin: 150px 100px 20px 50px;
-  background-color: rgb(170, 160, 102);
+  background-color: white;
+  max-width: 700px;
+  border-radius: 10px;
 }
 
-  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color:rgb(121, 141, 177);
+  text-align: center;
+}
