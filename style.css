@@ -1,3 +1,30 @@
+@media only screen and (max-width: 992px) {
+ .container{
+   min-height: fit-content;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutme {
+    min-width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .container {
+    min-height: fit-content;
+    min-width: 300px;
+  }
+  .aboutme {
+    min-width: 500px;
+  }
+
+  .portFolio{
+    min-width: 300px;
+  }
+}
+
 
 html {background-color: #a4a9b0}
 
@@ -24,7 +51,7 @@ body {
 }
 
 #aboutMe {
-    width: 50%;
+    width: 70%;
     background-color:white;
     padding: 10px;
     border-radius: 20px;
